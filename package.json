@@ -6,7 +6,6 @@
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@fontsource/roboto": "^4.5.7",
-    
     "@mui/lab": "^5.0.0-alpha.84",
     "@mui/material": "^5.8.3",
     "@mui/styles": "^5.8.0",
@@ -31,7 +30,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "coverage": "npm test -- --coverage --testResultsProcessor=jest-sonar-reporter --watchAll=false"
+    "coverage": "npm test -- --coverage --testResultsProcessor=jest-sonar-reporter --watchAll"
   },
   "eslintConfig": {
     "extends": [
