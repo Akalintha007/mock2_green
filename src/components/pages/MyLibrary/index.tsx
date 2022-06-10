@@ -88,13 +88,13 @@ const MyLibrary = ({books, setBooks, library, setLibrary}:any) =>{
                         <Card 
                         cardId={currData.id}
                         key={currData.id}
-                        imgHeight= {240}
+                        imgHeight= {260}
                         url= {currData.url}
                         bookName= {currData.name}
                         writerName= {currData.writerName}
                         timeRead= {currData.timeRead}
                         readsNo={currData.readsNo}
-                        width= {280}
+                        width= {270}
                         inLibrary= {true}
                         progress= {curr.progress}
                         data-testid='cards-reading'
@@ -120,13 +120,13 @@ const MyLibrary = ({books, setBooks, library, setLibrary}:any) =>{
                         <Card 
                         cardId={currData.id}
                         key={currData.id}
-                        imgHeight= {240}
+                        imgHeight= {260}
                         url= {currData.url}
                         bookName= {currData.name}
                         writerName= {currData.writerName}
                         timeRead= {currData.timeRead}
                         readsNo={currData.readsNo}
-                        width= {280}
+                        width= {270}
                         inLibrary= {true}
                         progress= {curr.progress}
                         data-testid='cards-finished'

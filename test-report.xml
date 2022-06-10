@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Logo/index.test.tsx">
-    <testCase name="should render Logo" duration="59"/>
-  </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Logo/index.test.tsx">
-    <testCase name="should render Logo" duration="51"/>
-  </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Footer/index.test.tsx">
-    <testCase name="Footer" duration="136"/>
-  </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/ProgressBar/index.test.tsx">
-    <testCase name="should render progressbar" duration="121"/>
-    <testCase name="should render progressbar with value" duration="28"/>
-  </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Button/index.test.tsx">
-    <testCase name="it renders Button" duration="176"/>
-  </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Explorer/index.test.tsx">
-    <testCase name="Explore render Explore by category heading" duration="199"/>
-    <testCase name="Explore should recently added text to be clickable" duration="77"/>
-    <testCase name="Explore it should See popular titles to be clickable" duration="99"/>
-    <testCase name="Explore Explore by category text should be blue" duration="97"/>
-    <testCase name="Explore Nav Icon count should be 26" duration="82"/>
-  </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Banner1/index.test.tsx">
-    <testCase name="Banner is Heading" duration="59"/>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Avatar/index.test.tsx">
+    <testCase name="renders the avatar" duration="146"/>
   </file>
   <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Typography/index.test.tsx">
-    <testCase name="renders Text passed from prop" duration="40"/>
+    <testCase name="renders Text passed from prop" duration="113"/>
   </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/tabs/index.test.tsx">
-    <testCase name="it should render 2 tabw for 2 length data" duration="220"/>
-    <testCase name="this should have green indicator color for currently reading tab by default" duration="50"/>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/ProgressBar/index.test.tsx">
+    <testCase name="should render progressbar" duration="289"/>
+    <testCase name="should render progressbar with value" duration="39"/>
   </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Blank/index.test.tsx">
-    <testCase name="renders the blank component" duration="38"/>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Button/index.test.tsx">
+    <testCase name="it renders Button" duration="329"/>
+  </file>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Banner1/index.test.tsx">
+    <testCase name="Banner is Heading" duration="111"/>
+  </file>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Explorer/index.test.tsx">
+    <testCase name="Explore render Explore by category heading" duration="234"/>
+    <testCase name="Explore should recently added text to be clickable" duration="110"/>
+    <testCase name="Explore it should See popular titles to be clickable" duration="93"/>
+    <testCase name="Explore Explore by category text should be blue" duration="127"/>
+    <testCase name="Explore Nav Icon count should be 26" duration="114"/>
+  </file>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Footer/index.test.tsx">
+    <testCase name="Footer" duration="126"/>
+  </file>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Logo/index.test.tsx">
+    <testCase name="should render Logo" duration="74"/>
   </file>
   <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Input/index.test.tsx">
-    <testCase name="Input Components" duration="82"/>
-    <testCase name="it should render input element" duration="20"/>
-    <testCase name="should be able to type in input" duration="30"/>
+    <testCase name="Input Components" duration="157"/>
+    <testCase name="it should render input element" duration="29"/>
+    <testCase name="should be able to type in input" duration="23"/>
   </file>
-  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Avatar/index.test.tsx">
-    <testCase name="renders the avatar" duration="21"/>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Blank/index.test.tsx">
+    <testCase name="renders the blank component" duration="41"/>
+  </file>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/tabs/index.test.tsx">
+    <testCase name="it should render 2 tabw for 2 length data" duration="283"/>
+    <testCase name="this should have green indicator color for currently reading tab by default" duration="61"/>
+  </file>
+  <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Logo/index.test.tsx">
+    <testCase name="Footer" duration="38"/>
   </file>
   <file path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Images/index.test.tsx">
-    <testCase name="it renders Images" duration="58"/>
+    <testCase name="it renders Images" duration="97"/>
   </file>
 </testExecutions>

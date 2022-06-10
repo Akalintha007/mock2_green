@@ -76,7 +76,7 @@ const styles={
 const themeProgress = createTheme({
     palette: {
      
-      secondary: {
+      primary: {
         main: '#E1ECFC',
       },
     },
@@ -161,7 +161,8 @@ const CardComponent = ({imgHeight, url, bookName, writerName, timeRead = "0-minu
             </Box>
             <Box sx={{ position: 'relative'}}>
                 {bookLibraryStatus ? 
-                    <ThemeProvider theme={themeProgress}><ProgressBar width={100} value={progress} color='secondary'/> </ThemeProvider>
+                    // <ThemeProvider theme={themeProgress}><ProgressBar width={100} value={progress} /> </ThemeProvider>
+                    <ProgressBar width={100} value={progress} />
                     
                     :
                     <Box onClick={e => 
