@@ -222,7 +222,7 @@ let mainTheme = createTheme({
             fontWeight: 400,
         },
     },
-    spacing: [4, 8, 12, 16, 20, 32, 48]
+    spacing: [4, 8, 12, 16, 20, 32, 48,0,0,0,0,12,12,12]
 });
 
 

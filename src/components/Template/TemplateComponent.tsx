@@ -70,7 +70,7 @@ const TemplateComponent = () => {
                 </Box>
                 
             </Router>
-            {/* {blankStatus ? <Blank/> : '' } */}
+            {blankStatus ? <Blank/> : '' }
         </Box>
     )
 }

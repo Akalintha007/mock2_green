@@ -80,14 +80,17 @@ const BookInfoComponent = ({library, setLibrary}:any)=>{
     const { bookId } = useParams();
     const tabData = [
         { 
+            'id':1001,
           'value': 'synopsis',
           'label': 'Synopsis',
         },
         { 
+            'id':1002,
           'value': 'audience',
           'label': 'Who is it for?'
         },
         { 
+            'id':1003,
             'value': 'author',
             'label': 'About the author'
         }

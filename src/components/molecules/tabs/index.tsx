@@ -33,6 +33,7 @@ export default function TabsWrappedLabel({tabData, ...props}: any) {
     <Box sx={{ borderBottom: 1, borderColor: 'divider', width:'912px' }}>
       <ThemeProvider theme={tabTheme}>
         <Tabs
+          key={value+'1001'}
           value={value}
           onChange={handleChange}
           aria-label="wrapped label tabs example"

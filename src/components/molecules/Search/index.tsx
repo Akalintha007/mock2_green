@@ -1,9 +1,9 @@
 import Input from '../../atoms/Input';
 import {Search, Close} from '@mui/icons-material';
 import {Box, List, ListItem} from '@mui/material';
-import {useState} from 'react';
-import Typography from '../../atoms/Typography';
-import {Link} from 'react-router-dom';
+// import {useState} from 'react';
+// import Typography from '../../atoms/Typography';
+// import {Link} from 'react-router-dom';
 const SearchComponent = (props: any) => {
     // const [filteredData, setFilteredData] = useState<any>(null);
     // const inputDataHandler = async (event:any) => {

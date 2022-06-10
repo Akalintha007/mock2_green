@@ -93,13 +93,13 @@ const CardComponent = ({imgHeight, url, bookName, writerName, timeRead = "0-minu
 
     const readsRenderer =(currReads:number)=>{
         if(currReads !== 0){
-            return (<React.Fragment>
+            return (<>
                 <Icon icon={<ReadsSvgIcon />} />
                         <Typography variant1="caption3" 
                         color={theme.palette.textcolor.light}>
                             {readsNo+"k reads"}
                         </Typography>
-            </React.Fragment>)
+            </>)
         }
         else{
             return
