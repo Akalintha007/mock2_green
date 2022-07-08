@@ -1,32 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657273079901" clover="3.2.0">
-  <project timestamp="1657273079901" name="All files">
-    <metrics statements="480" coveredstatements="243" conditionals="98" coveredconditionals="39" methods="140" coveredmethods="60" elements="718" coveredelements="342" complexity="0" loc="480" ncloc="480" packages="38" files="79" classes="79"/>
+<coverage generated="1657274996654" clover="3.2.0">
+  <project timestamp="1657274996654" name="All files">
+    <metrics statements="460" coveredstatements="243" conditionals="98" coveredconditionals="39" methods="134" coveredmethods="60" elements="692" coveredelements="342" complexity="0" loc="460" ncloc="460" packages="37" files="74" classes="74"/>
     <package name="src">
-      <metrics statements="26" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="App.tsx" path="/home/asishk/Documents/blinklist/src/App.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="15" count="0" type="stmt"/>
-      </file>
-      <file name="LoginButton.tsx" path="/home/asishk/Documents/blinklist/src/LoginButton.tsx">
-        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-      </file>
-      <file name="Theme.tsx" path="/home/asishk/Documents/blinklist/src/Theme.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="386" count="0" type="stmt"/>
-        <line num="744" count="0" type="stmt"/>
       </file>
       <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/index.tsx">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -796,24 +776,6 @@
         <line num="59" count="2" type="stmt"/>
         <line num="60" count="6" type="stmt"/>
         <line num="68" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.redux">
-      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="backDrop.feature.tsx" path="/home/asishk/Documents/blinklist/src/redux/backDrop.feature.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-      </file>
-      <file name="rootReducer.tsx" path="/home/asishk/Documents/blinklist/src/redux/rootReducer.tsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-      </file>
-      <file name="store.tsx" path="/home/asishk/Documents/blinklist/src/redux/store.tsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.theme">
