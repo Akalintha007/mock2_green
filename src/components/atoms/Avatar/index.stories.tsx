@@ -1,15 +1,17 @@
-import AvatarComp from "./index";
-import {ComponentStory, ComponentMeta} from '@storybook/react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+import Avatar from '.';
+import url from '../../../../public/assets/illustrations/user-img.png';
+
 export default {
-    title: "Atoms/Avatar",
-    component: AvatarComp,
-  }as ComponentMeta<typeof AvatarComp>;
-  
-  const ButtonTemplate:ComponentStory<typeof AvatarComp> = (args:any) => (
-    <AvatarComp {...args}>{args.children}</AvatarComp>
-  );
-  
-  export const primaryAvatar = ButtonTemplate.bind({});
-  primaryAvatar.args = {
-      
-  };
+  title: 'components/atoms/Avatar',
+  component: Avatar,
+} as ComponentMeta<typeof Avatar>;
+
+const Template: ComponentStory<typeof Avatar> = (args) => <Avatar {...args} />;
+
+export const UserAvatar = Template.bind({});
+
+UserAvatar.args = {
+  alt: 'avatar img',
+  src: `${url}`,
+};

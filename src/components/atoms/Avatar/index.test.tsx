@@ -1,8 +1,11 @@
-import { render, screen } from "@testing-library/react";
-import Avatar from ".";
+import renderer from 'react-test-renderer';
+import Avatar from '.';
 
-it("renders the avatar", () => {
-  render(<Avatar/>);
-  const ReactElement = screen.getByTestId("avatar101");
-  expect(ReactElement).toBeInTheDocument();
+describe('Avatar', () => {
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(<Avatar alt='test-user-avatar' src='../../../../public/assets/illustrations/user-img.png' />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });

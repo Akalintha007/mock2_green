@@ -1,19 +1,15 @@
-import {Box} from '@mui/material';
+/**
+ * @author Asish Kalintha <asish.sugun@zemosolabs.com>
+ */
 
-import Image from '../Images/index'
+import React from 'react';
+import { CommonProps } from '@mui/material/OverridableComponent';
 
-const LogoComponent = ({height=33, url, name, ...props}:any) => {
-    return (
-        <Box sx={{
-                display: 'flex',
-                alignItems: 'center'
-            }} >
-            <Image height={height}  alt="blinkist" component="img" src='/assets/31.png'/>
-           
-        </Box>
-        
-        
-    );
+interface LogoProps {
+  url: string;
 }
 
-export default LogoComponent;
+const Logo:React.FC<LogoProps & CommonProps> = ({ url } ) =>  <img data-testid='logo' src={url} alt='Logo'/>;
+
+
+export default Logo;

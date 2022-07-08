@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654837192650" clover="3.2.0">
-  <project timestamp="1654837192650" name="All files">
-    <metrics statements="331" coveredstatements="84" conditionals="80" coveredconditionals="7" methods="109" coveredmethods="39" elements="520" coveredelements="130" complexity="0" loc="331" ncloc="331" packages="25" files="67" classes="67"/>
+<coverage generated="1657273079901" clover="3.2.0">
+  <project timestamp="1657273079901" name="All files">
+    <metrics statements="480" coveredstatements="243" conditionals="98" coveredconditionals="39" methods="140" coveredmethods="60" elements="718" coveredelements="342" complexity="0" loc="480" ncloc="480" packages="38" files="79" classes="79"/>
     <package name="src">
-      <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <file name="App.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/App.tsx">
+      <metrics statements="26" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="App.tsx" path="/home/asishk/Documents/blinklist/src/App.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="275" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/index.tsx">
+      <file name="LoginButton.tsx" path="/home/asishk/Documents/blinklist/src/LoginButton.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+      </file>
+      <file name="Theme.tsx" path="/home/asishk/Documents/blinklist/src/Theme.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="386" count="0" type="stmt"/>
+        <line num="744" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/index.tsx">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
       </file>
-      <file name="reportWebVitals.ts" path="/home/asishk/Documents/BlinkList/blinklist/src/reportWebVitals.ts">
+      <file name="reportWebVitals.ts" path="/home/asishk/Documents/blinklist/src/reportWebVitals.ts">
         <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
         <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -26,587 +46,791 @@
         <line num="10" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="src.Themes">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="main.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/Themes/main.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="86" count="6" type="stmt"/>
-      </file>
-      <file name="tabsTheme.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/Themes/tabsTheme.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="7" count="1" type="stmt"/>
-      </file>
-      <file name="theme.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/Themes/theme.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.Template">
-      <metrics statements="22" coveredstatements="0" conditionals="9" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="TemplateComponent.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/Template/TemplateComponent.tsx">
-        <metrics statements="22" coveredstatements="0" conditionals="9" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-      </file>
-    </package>
     <package name="src.components.atoms.Avatar">
-      <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Avatar/index.stories.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Avatar/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Avatar/index.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.atoms.Blank">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Blank/index.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Avatar/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Button">
-      <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Button/index.stories.tsx">
-        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="10" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Button/index.stories.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Button/index.tsx">
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Button/index.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="50" count="23" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.atoms.Icons">
-      <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Icons/index.stories.tsx">
-        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+    <package name="src.components.atoms.Checkbox">
+      <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Checkbox/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="9" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Icons/index.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Checkbox/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="21" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="21" type="stmt"/>
+        <line num="34" count="21" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.atoms.Images">
+    <package name="src.components.atoms.Icon">
       <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Images/index.stories.tsx">
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Icon/index.stories.tsx">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Images/index.tsx">
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Icon/index.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="4" type="stmt"/>
+        <line num="12" count="58" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.atoms.Input">
-      <metrics statements="10" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Input/index.stories.tsx">
-        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
+    <package name="src.components.atoms.IconSVG">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/IconSVG/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Input/index.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/IconSVG/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="15" count="115" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Illustration">
+      <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Illustration/index.stories.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Illustration/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.InputField">
+      <metrics statements="17" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/InputField/index.stories.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/InputField/index.tsx">
+        <metrics statements="10" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="3"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Logo">
-      <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Logo/index.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="1" type="stmt"/>
+      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Logo/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Logo/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="24" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.atoms.ProgressBar">
-      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/ProgressBar/index.stories.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+    <package name="src.components.atoms.RadioButton">
+      <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/RadioButton/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/ProgressBar/index.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/RadioButton/index.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Typography">
-      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Typography/index.stories.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+      <metrics statements="19" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Typography/index.stories.tsx">
+        <metrics statements="17" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="9" count="0" type="stmt"/>
-      </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/Typography/index.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="5" type="stmt"/>
-        <line num="9" count="127" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.atoms.icons-svg">
-      <metrics statements="50" coveredstatements="36" conditionals="0" coveredconditionals="0" methods="25" coveredmethods="18"/>
-      <file name="CareerSuccess.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/CareerSuccess.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="ClockSvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/ClockSvgIcon.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="CommunicationSkills.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/CommunicationSkills.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="CorporateCultureSvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/CorporateCultureSvgIcon.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="Economics.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/Economics.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="Education.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/Education.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="EntrepreneurshipSvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/EntrepreneurshipSvgIcon.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="HealthNutrition.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/HealthNutrition.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="History.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/History.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="MarketingSales.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/MarketingSales.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="MoneyInvestment.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/MoneyInvestment.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="MotivationInspiration.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/MotivationInspiration.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="Nature&EnvironmentSvgIIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/Nature&EnvironmentSvgIIcon.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="NatureEnvironment.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/NatureEnvironment.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="PersonalDevelopment.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/PersonalDevelopment.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="PlusSvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/PlusSvgIcon.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="PoliticsSvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/PoliticsSvgIcon.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="Productivity.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/Productivity.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="Psychology.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/Psychology.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="PsychologySvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/PsychologySvgIcon.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="ReadsSvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/ReadsSvgIcon.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="ScienceSvgIcon .tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/ScienceSvgIcon .tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="ScienceSvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/ScienceSvgIcon.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-      <file name="SearchSvgIcon.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/SearchSvgIcon.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="SexRelations.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/atoms/icons-svg/SexRelations.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.molecules.Banner1">
-      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Banner1/index.stories.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="12" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-      </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Banner1/index.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.molecules.Logo">
-      <metrics statements="4" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Logo/index.stories.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-      </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Logo/index.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="4" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.molecules.NavIcon">
-      <metrics statements="5" coveredstatements="4" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/NavIcon/index.tsx">
-        <metrics statements="5" coveredstatements="4" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="90" type="stmt"/>
-        <line num="7" count="90" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="90" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.molecules.Search">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/Search/index.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.molecules.tabs">
-      <metrics statements="12" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/tabs/index.tsx">
-        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="46" count="6" type="stmt"/>
-      </file>
-      <file name="tabs.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/molecules/tabs/tabs.stories.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.organisms.Card">
-      <metrics statements="19" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="5" coveredmethods="0"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Card/index.stories.tsx">
-        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/atoms/Typography/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="22" type="stmt"/>
+        <line num="9" count="286" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.AQI">
+      <metrics statements="8" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/AQI/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/AQI/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.AQIGroup">
+      <metrics statements="11" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/AQIGroup/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/AQIGroup/index.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.AQILocation">
+      <metrics statements="8" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/AQILocation/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/AQILocation/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.ChipItem">
+      <metrics statements="15" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/ChipItem/index.stories.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/ChipItem/index.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.IconButton">
+      <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/IconButton/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/IconButton/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.IllustrationData">
+      <metrics statements="12" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/IllustrationData/index.stories.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/IllustrationData/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.ListItem">
+      <metrics statements="11" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/ListItem/index.stories.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Card/index.tsx">
-        <metrics statements="13" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="87" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="88" count="0" type="stmt"/>
-        <line num="89" count="0" type="stmt"/>
-        <line num="90" count="0" type="stmt"/>
-        <line num="91" count="0" type="stmt"/>
-        <line num="94" count="0" type="stmt"/>
-        <line num="95" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="105" count="0" type="stmt"/>
-        <line num="111" count="0" type="stmt"/>
-        <line num="169" count="0" type="stmt"/>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/ListItem/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="19" type="stmt"/>
+        <line num="36" count="19" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.organisms.Explorer">
-      <metrics statements="11" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Explorer/index.stories.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-      </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Explorer/index.tsx">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="33" count="5" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="79" count="1" type="stmt"/>
-        <line num="80" count="5" type="stmt"/>
-        <line num="81" count="5" type="stmt"/>
-        <line num="83" count="5" type="stmt"/>
-        <line num="178" count="5" type="stmt"/>
-        <line num="193" count="90" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.organisms.Footer">
-      <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Footer/index.stories.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="10" count="0" type="stmt"/>
+    <package name="src.components.molecules.LocationField">
+      <metrics statements="12" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/LocationField/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Footer/index.tsx">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/LocationField/index.tsx">
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.MenuItem">
+      <metrics statements="16" coveredstatements="11" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/MenuItem/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/MenuItem/index.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="85" count="81" type="stmt"/>
+        <line num="86" count="81" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.ProgressItem">
+      <metrics statements="9" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/ProgressItem/index.stories.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/molecules/ProgressItem/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.AcknowledgementCard">
+      <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/AcknowledgementCard/index.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/AcknowledgementCard/index.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.CabCard">
+      <metrics statements="12" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/CabCard/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/CabCard/index.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="77" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.CommonRoutes">
+      <metrics statements="10" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/CommonRoutes/index.stories.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/CommonRoutes/index.tsx">
+        <metrics statements="9" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="114" count="4" type="stmt"/>
+        <line num="115" count="4" type="stmt"/>
+        <line num="116" count="4" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="120" count="4" type="stmt"/>
+        <line num="121" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.FileUploadCard">
+      <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/FileUploadCard/index.stories.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/FileUploadCard/index.tsx">
+        <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="4" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.FilterMenu">
+      <metrics statements="24" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="7"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/FilterMenu/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/FilterMenu/index.tsx">
+        <metrics statements="20" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="7"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
         <line num="41" count="1" type="stmt"/>
-        <line num="65" count="3" type="stmt"/>
-        <line num="74" count="12" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="90" count="5" type="stmt"/>
+        <line num="91" count="20" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.FindCard">
+      <metrics statements="11" coveredstatements="5" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/FindCard/index.stories.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/FindCard/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.Header">
-      <metrics statements="23" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="0"/>
-      <file name="index.stories.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Header/index.stories.tsx">
+      <metrics statements="13" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/Header/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/Header/index.tsx">
+        <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.JobDesCard">
+      <metrics statements="18" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/JobDesCard/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/JobDesCard/index.tsx">
+        <metrics statements="15" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.JobDetailsCard">
+      <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/JobDetailsCard/index.stories.tsx">
         <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/JobDetailsCard/index.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.JobList">
+      <metrics statements="21" coveredstatements="11" conditionals="10" coveredconditionals="9" methods="6" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/JobList/index.stories.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/JobList/index.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="9" methods="3" coveredmethods="3"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.JobSearch">
+      <metrics statements="23" coveredstatements="15" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/JobSearch/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/organisms/Header/index.tsx">
-        <metrics statements="19" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/JobSearch/index.tsx">
+        <metrics statements="19" coveredstatements="15" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="3"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="88" count="4" type="stmt"/>
+        <line num="89" count="4" type="stmt"/>
+        <line num="90" count="4" type="stmt"/>
+        <line num="91" count="4" type="stmt"/>
+        <line num="94" count="4" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="99" count="4" type="stmt"/>
+        <line num="116" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="119" count="8" type="stmt"/>
+        <line num="129" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="132" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.MainCard">
+      <metrics statements="24" coveredstatements="15" conditionals="8" coveredconditionals="2" methods="6" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/MainCard/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/MainCard/index.tsx">
+        <metrics statements="21" coveredstatements="15" conditionals="8" coveredconditionals="2" methods="5" coveredmethods="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.MetroCard">
+      <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/MetroCard/index.stories.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/MetroCard/index.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.SideMenu">
+      <metrics statements="20" coveredstatements="14" conditionals="6" coveredconditionals="2" methods="7" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/SideMenu/index.stories.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/SideMenu/index.tsx">
+        <metrics statements="19" coveredstatements="14" conditionals="6" coveredconditionals="2" methods="6" coveredmethods="3"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="10" type="stmt"/>
+        <line num="73" count="10" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+        <line num="111" count="10" type="stmt"/>
+        <line num="134" count="10" type="stmt"/>
+        <line num="135" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="141" count="10" type="stmt"/>
+        <line num="149" count="10" type="stmt"/>
+        <line num="153" count="50" type="cond" truecount="2" falsecount="0"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="174" count="0" type="stmt"/>
+        <line num="189" count="30" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.TabPanel">
+      <metrics statements="22" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/TabPanel/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/components/organisms/TabPanel/index.tsx">
+        <metrics statements="19" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="43" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="93" count="0" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.pages.BookInfoPage">
-      <metrics statements="47" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="10" coveredmethods="0"/>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/pages/BookInfoPage/index.tsx">
-        <metrics statements="47" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="10" coveredmethods="0"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="80" count="0" type="stmt"/>
-        <line num="81" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="100" count="0" type="stmt"/>
-        <line num="101" count="0" type="stmt"/>
-        <line num="102" count="0" type="stmt"/>
-        <line num="103" count="0" type="stmt"/>
-        <line num="105" count="0" type="stmt"/>
-        <line num="106" count="0" type="stmt"/>
-        <line num="107" count="0" type="stmt"/>
-        <line num="108" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="109" count="0" type="stmt"/>
-        <line num="110" count="0" type="stmt"/>
-        <line num="113" count="0" type="stmt"/>
-        <line num="115" count="0" type="stmt"/>
-        <line num="116" count="0" type="stmt"/>
-        <line num="117" count="0" type="stmt"/>
-        <line num="118" count="0" type="stmt"/>
-        <line num="120" count="0" type="stmt"/>
-        <line num="121" count="0" type="stmt"/>
-        <line num="132" count="0" type="stmt"/>
-        <line num="134" count="0" type="stmt"/>
-        <line num="135" count="0" type="stmt"/>
-        <line num="138" count="0" type="stmt"/>
-        <line num="140" count="0" type="stmt"/>
-        <line num="141" count="0" type="stmt"/>
-        <line num="142" count="0" type="stmt"/>
-        <line num="143" count="0" type="stmt"/>
-        <line num="144" count="0" type="stmt"/>
-        <line num="145" count="0" type="stmt"/>
-        <line num="152" count="0" type="stmt"/>
-        <line num="153" count="0" type="stmt"/>
-        <line num="156" count="0" type="stmt"/>
-        <line num="157" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="158" count="0" type="stmt"/>
-        <line num="163" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="164" count="0" type="stmt"/>
-        <line num="169" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="170" count="0" type="stmt"/>
-        <line num="177" count="0" type="stmt"/>
-        <line num="178" count="0" type="stmt"/>
-        <line num="180" count="0" type="stmt"/>
-        <line num="181" count="0" type="stmt"/>
-        <line num="183" count="0" type="stmt"/>
+    <package name="src.redux">
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="backDrop.feature.tsx" path="/home/asishk/Documents/blinklist/src/redux/backDrop.feature.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+      </file>
+      <file name="rootReducer.tsx" path="/home/asishk/Documents/blinklist/src/redux/rootReducer.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="store.tsx" path="/home/asishk/Documents/blinklist/src/redux/store.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.pages.EntrepreneurPage">
-      <metrics statements="26" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/pages/EntrepreneurPage/index.tsx">
-        <metrics statements="26" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="43" count="0" type="stmt"/>
+    <package name="src.theme">
+      <metrics statements="11" coveredstatements="3" conditionals="30" coveredconditionals="0" methods="9" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/asishk/Documents/blinklist/src/theme/index.tsx">
+        <metrics statements="11" coveredstatements="3" conditionals="30" coveredconditionals="0" methods="9" coveredmethods="1"/>
+        <line num="42" count="25" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="80" count="0" type="stmt"/>
-        <line num="81" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="84" count="0" type="stmt"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="98" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="122" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.pages.MyLibrary">
-      <metrics statements="31" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="5" coveredmethods="0"/>
-      <file name="index.tsx" path="/home/asishk/Documents/BlinkList/blinklist/src/components/pages/MyLibrary/index.tsx">
-        <metrics statements="31" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
         <line num="57" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="71" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="74" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
         <line num="80" count="0" type="stmt"/>
-        <line num="81" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="82" count="0" type="stmt"/>
-        <line num="86" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="105" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="106" count="0" type="stmt"/>
-        <line num="107" count="0" type="stmt"/>
-        <line num="108" count="0" type="stmt"/>
-        <line num="109" count="0" type="stmt"/>
-        <line num="111" count="0" type="stmt"/>
-        <line num="112" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="113" count="0" type="stmt"/>
-        <line num="116" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="153" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="293" count="6" type="stmt"/>
+        <line num="297" count="25" type="stmt"/>
       </file>
     </package>
   </project>

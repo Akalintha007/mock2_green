@@ -1,13 +1,20 @@
-import { Avatar } from '@mui/material'
-import React from 'react'
-import {blue } from '@mui/material/colors';
+/**
+ * @author Abhishek Bhemisetty <abhishek.bhemisetty@zemosolabs.com>
+ */
 
-function AvatarComp() {
-    return (
-        
-        <Avatar sx={{ bgcolor: blue[500], color:'white' }} data-testid="avatar101" >A</Avatar>
-        
-    )
+import React from 'react';
+import Avatar from '@mui/material/Avatar';
+import { CommonProps } from '@mui/material/OverridableComponent';
+
+interface AvatarProps {
+  alt: string | undefined;
+  src: string;
 }
 
-export default AvatarComp
+const AvatarComponent: React.FC<AvatarProps & CommonProps> = (props) => {
+  const { alt, src } = props;
+
+  return <Avatar alt={alt} src={src} />;
+};
+
+export default AvatarComponent;

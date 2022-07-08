@@ -1,108 +1,78 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+import { AppBar, Container, Grid, styled } from '@mui/material';
+import logoUrl from '../../../../public/assets/logos/logoWhite.png';
+import Logo from '../../atoms/Logo';
+import theme from '../../../theme';
+import LocationField from '../../molecules/LocationField';
+import { ChangeEvent, useState } from 'react';
+import Message from '../../../../public/assets/icons/message.png';
+import Avatar from '../../atoms/Avatar';
+import BellUrl from '../../../../public/assets/icons/notificationIcon.png';
+import avatarUrl from '../../../../public/assets/illustrations/user-img.png';
 
-import Logo from '../../molecules/Logo';
-import Icon from '../../atoms/Icons';
-import Typography from '../../atoms/Typography';
-import {Box,  Menu, MenuItem, Container} from '@mui/material';
-import {Search} from '@mui/icons-material';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Button from '../../atoms/Button';
-import {useState} from 'react';
-import {NavLink} from 'react-router-dom';
-import AvatarComp from '../../atoms/Avatar'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import SearchBox from '../../molecules/Search';
-import SearchSvgIcon from '../../atoms/icons-svg/SearchSvgIcon';
-
-
-const HeaderComponent = (props : any) => {
-
-    const settings = ['Profile', 'Logout'];
-    const [anchorElNav, setAnchorElNav] = useState(null);
-    const [anchorElUser, setAnchorElUser] = useState(null);
-    const [searchState, setSearchState] = useState(false);
-    const handleOpenNavMenu = (event: any) => {
-        setAnchorElNav(event.currentTarget);
-      };
-    const handleOpenUserMenu = (event: any) => {
-        setAnchorElUser(event.currentTarget);
-    };
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
-    };
-    return (
-        <AppBar data-testid='box' position="fixed" sx={{color: 'black', backgroundColor: 'white', boxShadow: 'none', display:'flex',justifyContent:'start'}}>
-            <Container>
-                <Toolbar sx={{height: '86px',  display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-                <NavLink to='/' style={{ textDecoration: 'none' }}>
-                    <Logo {...props} />
-                </NavLink>
-                    {
-                        searchState
-                        ?
-                        <SearchBox books={props.books} searchStateHandler={() =>{
-                            setSearchState(false)
-                            props.setBlankStatus(false)
-                         } } data-testid='search-box' /> 
-                        :
-                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                            <Button data-testid='search-state-button' onClick={() => {
-                                setSearchState(true)
-                                props.setBlankStatus(true)
-                            }} size='large' key={0} startIcon={<SearchSvgIcon fontSize='large' style={{textDecoration: 'none', fontSize: '30px'}}/>} sx={{color:'#03314B', margin: '0px 5px 0px 40px'}}/>
-
-                            
-                            <Button data-testid='handle-explore' onClick={props.handleExploreMenu}  size='medium' key={1} sx={{textTransform:'none', display: 'flex', alignItems: 'center', color:'#03314B !important', margin: '5px 10px' ,fontSize:'16px',fontWeight:'500'}} children='Explore' endIcon={!props.exploreOption ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />} />
-                           
-                            <NavLink to='/' style={{ textDecoration: 'none', }}>
-                                <Button size='medium' key={2} children='My Library' sx={{textTransform:'none',color:'#03314B !important', margin: '5px 10px' ,fontSize:'16px',fontWeight:'500'}}/>
-                            </NavLink>
-                        </Box>
-                    }
-                    <Box sx={{ flexGrow: 0.5,}}>
-                       
-                        <div style={{alignItems: 'center',display:'flex'}}>
-                        <Button onClick={handleOpenUserMenu}>
-                        <AvatarComp/>
-                        </Button>
-                        <Icon icon={<KeyboardArrowDownIcon />}/>
-                        </div>
-                        
-                        <Menu
-                            sx={{ mt: '45px' }}
-                            id="menu-appbar"
-                            anchorEl={anchorElUser}
-                            anchorOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            open={Boolean(anchorElUser)}
-                            onClose={handleCloseUserMenu}
-                        >
-                        {settings.map((setting) => (
-                            <MenuItem key={setting} onClick={handleCloseNavMenu}>
-                            <Typography textAlign="center">{setting}</Typography>
-                            </MenuItem>
-                        ))}
-                        </Menu>
-                    </Box>
-                </Toolbar>
-            </Container>
-        </AppBar>
-    );
+interface HeaderProps {
+  userLocation: string;
 }
 
-export default HeaderComponent;
+const AppContainer = styled(Container)({
+  [theme.breakpoints.up('lg')]: {
+    paddingLeft: '35px !important',
+    paddingRight: '35px !important',
+  },
+});
 
+const MainGrid = styled(Grid)({
+  paddingTop: `${theme.spacing(4)}`,
+  paddingBottom: `${theme.spacing(4)}`,
+});
 
+const MainLogo = styled(Logo)({
+  marginLeft: `${theme.spacing(2)}`,
+  marginRight: `${theme.spacing(3)}`,
+});
 
+const Header: React.FC<HeaderProps> = ({ userLocation }) => {
+  const [loc, setLocation] = useState<string>(userLocation);
+
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setLocation(event.target.value);
+    console.log('loc: ' + loc);
+  };
+  return (
+    <AppBar elevation={0} color='secondary'>
+      <AppContainer maxWidth='xl'>
+        <MainGrid
+          container
+          rowSpacing={{ xs: 2, sm: 3, md: 4, lg: 5, xl: 6 }}
+          justifyContent='space-around'
+          alignItems='center'
+        >
+          <Grid item xs={3} lg={3} xl={3}>
+            <MainLogo url={`${logoUrl}`}></MainLogo>
+          </Grid>
+          <Grid item xs={6} lg={6} xl={5}>
+            <LocationField width='500' onChangeHandler={handleChange} location={loc}></LocationField>
+          </Grid>
+          <Grid item xs lg xl={4}>
+            <Grid container direction='row' spacing={5} justifyContent='flex-end' alignItems='center'>
+              <Grid item>
+                <Logo url={`${Message}`}></Logo>
+              </Grid>
+              <Grid item>
+                <Logo url={`${BellUrl}`}></Logo>
+              </Grid>
+              <Grid item>
+                <Avatar alt={'user-profile'} src={`${avatarUrl}`}></Avatar>
+              </Grid>
+            </Grid>
+          </Grid>
+        </MainGrid>
+      </AppContainer>
+    </AppBar>
+  );
+};
+
+Header.defaultProps = {
+  userLocation: 'East MaredPally, Secunderabad',
+};
+
+export default Header;

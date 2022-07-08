@@ -1,19 +1,16 @@
-import React from 'react'
-import {Typography} from '@mui/material'
-import { ThemeProvider } from '@mui/material/styles';
-import {Theme} from '../../../Themes/theme';
-import mainTheme from '../../../Themes/main';
+/**
+ * @author Abhishek Bhemisetty <abhishek.bhemisetty@zemosolabs.com>
+ */
 
+import Typography, { TypographyProps } from '@mui/material/Typography';
+import { CommonProps } from '@mui/material/OverridableComponent';
 
-const TypographyComponents = (props:any) => {
-    return (
-        <ThemeProvider theme={mainTheme} >
-        <Typography variant={props.variant1} mb={1} mt={1}   {...props} >
-            {props.children}
-        </Typography>
-        </ThemeProvider>
-    );
-}
+const TypographyComponent: React.FC<TypographyProps & CommonProps> = ({ variant, children, ...props }) => {
+  return (
+    <Typography variant={variant} {...props}>
+      {children}
+    </Typography>
+  );
+};
 
-export default TypographyComponents;
-
+export default TypographyComponent;
